@@ -1,3 +1,7 @@
 $(document).ready(function(){
-  // your code here!
+  $('body').on('submit', function(event) {
+    console.log(event)
+  })
 })
+
+//$('#comment-list').prepend(`<div id='comments'>${}</div>`)
